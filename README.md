@@ -1,7 +1,7 @@
 <h1 align="center">Educa.</h1>
 
 <p align="center">
- <img src="">
+ <img src="./educaprint1.png">
 </p>
 
 <br>
