@@ -16,7 +16,7 @@ Este projeto foi desenvolvido utilizando:
 <br>
 
 # Status do projeto
-Em desenvolvimento...
+Em desenvolvimento... https://quintinopro.github.io/Educa./
 
 <br>
 
