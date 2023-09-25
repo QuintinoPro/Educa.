@@ -70,6 +70,18 @@ section{
 
 }
 
+.heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.heading span{
+    color: var(--green);
+}
+
 .header{
    position: fixed;
    top: 0;
@@ -208,6 +220,41 @@ section{
     color: var(--light-white);
 }
 
+.courses .slide{
+    width: 30rem;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.courses .slide img{
+    height: 25rem;
+    width: 100%;
+}
+
+.courses .slide h3{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.courses .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+.swiper-pagination-bullet{
+    background-color: var(--white);
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--green);
+}
+
+/* Media queries */ 
 
 @media (max-width:991px){
     html{
@@ -259,6 +306,6 @@ section{
     }
 
     .home .row .content h3{
-        font-size: 5rem;
+        font-size: 6rem;
     }
 }

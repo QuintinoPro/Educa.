@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom css file link -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <title>Educa</title>
 </head>
 <body>
+    <!-- Header section starts -->
     <header class="header">
         <section class="flex">
             <a href="#home" class="logo">educa.</a>
-
             <nav class="navbar">
                 <a href="#home">home</a>
                 <a href="#about">about</a>
@@ -20,32 +24,28 @@
                 <a href="#reviews">reviews</a>
                 <a href="#contact">contact</a>
             </nav>
-
-            <div id="menu-btn" class="fas fa-bars">
-                
-            </div>
-
+            <div id="menu-btn" class="fas fa-bars"></div>
         </section>
-
     </header>
+    <!-- Header section ends -->
 
+    <!-- Home section starts -->
     <section class="home" id="home">
         <div class="row">
             <div class="content">
                 <h3>Online <span>education</span></h3>
                 <a href="#contact" class="btn">contact us</a>
             </div>
-
             <div class="image">
                 <img src="img/Webinar-pana.svg" alt="">
             </div>
         </div>
     </section>
+    <!-- Jomes section ends -->
 
+    <!-- Couter section starts -->
     <section class="count">
-
         <div class="box-container">
-
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
                 <div class="content">
@@ -53,7 +53,6 @@
                     <p>courses</p>
                 </div>
             </div>
-
             <div class="box">
                 <i class="fas fa-user-graduate"></i>
                 <div class="content">
@@ -61,7 +60,6 @@
                     <p>students</p>
                 </div>
             </div>
-
             <div class="box">
                 <i class="fas fa-chalkboard-user"></i>
                 <div class="content">
@@ -69,7 +67,6 @@
                     <p>teachers</p>
                 </div>
             </div>
-
             <div class="box">
                 <i class="fas fa-face-smile"></i>
                 <div class="content">
@@ -77,32 +74,73 @@
                     <p>satisfaction</p>
                 </div>
             </div>
-
         </div>
     </section>
+    <!-- Couter section ends -->
 
+    <!-- About section starts -->
     <section class="about" id="about">
-
         <div class="row">
-
             <div class="image">
                 <img src="img/Internship-bro.svg" alt="">
             </div>
-
             <div class="content">
                 <h3>why chose us?</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ab nesciunt. Architecto mollitia dolor incidunt, autem est at facilis ad quam quisquam corporis deleniti repellat, nemo voluptatem accusamus perferendis ratione.</p>
                 <a href="#contact" class="btn">contact us</a>
             </div>
+        </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Courses section Starts -->
+    <section class="courses" id="courses">
+        <h1 class="heading">our <span>courses</span></h1>
+
+        <div class="swiper course-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="img/Website Creator-bro.svg" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis incidunt ducimus similique non, quaerat veritatis vero rem! Consequuntur minima esse culpa harum, totam, qui placeat minus perferendis, earum porro aliquid.</p>
+                </div>
+                <div class="swiper-slide slide ">
+                    <img src="img/Conversion rate optimization-amico.svg" alt="">
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis incidunt ducimus similique non, quaerat veritatis vero rem! Consequuntur minima esse culpa harum, totam, qui placeat minus perferendis, earum porro aliquid.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/chemist-bro.svg" alt="">
+                    <h3>Science and Biology</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis incidunt ducimus similique non, quaerat veritatis vero rem! Consequuntur minima esse culpa harum, totam, qui placeat minus perferendis, earum porro aliquid.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/Design Process-bro.svg" alt="">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis incidunt ducimus similique non, quaerat veritatis vero rem! Consequuntur minima esse culpa harum, totam, qui placeat minus perferendis, earum porro aliquid.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/Teaching-bro.svg" alt="">
+                    <h3>Teaching</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis incidunt ducimus similique non, quaerat veritatis vero rem! Consequuntur minima esse culpa harum, totam, qui placeat minus perferendis, earum porro aliquid.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="img/Printed circuit board-bro.svg" alt="">
+                    <h3>Engineering</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis incidunt ducimus similique non, quaerat veritatis vero rem! Consequuntur minima esse culpa harum, totam, qui placeat minus perferendis, earum porro aliquid.</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
 
         </div>
-
-
     </section>
+    <!-- Courses section ends -->
 
 
+    <!-- Swiper Js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-
+    <!-- Custom js file link -->
     <script src="js/script.js"></script>
 
 </body>
