@@ -1,7 +1,7 @@
 <h1 align="center">Educa.</h1>
 
 <p align="center">
- <img src="./img/capturar.PNG">
+ <img src="./img/2023-10-02-22-47-02.remuxed.gif">
 </p>
 
 <br>
@@ -16,7 +16,7 @@ Este projeto foi desenvolvido utilizando:
 <br>
 
 # Status do projeto
-Em desenvolvimento... https://quintinopro.github.io/Educa./
+Finalizado (Versão Desktop/Mobile): https://quintinopro.github.io/Educa./
 
 <br>
 
